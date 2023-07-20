@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2? family= Inter:wght@400;700 & family= Krona+One & family= Montserrat:wght@600 & family= Open+Sans: wght@300;400;500 & display=swap");
+
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: #167bf7;
+  --cor-de-fundo: #00030c;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco-principal);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.principal {
+  background-image: url("../assets/Background\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container__imagem {
+  margin: 1em 0 2em 0;
+}
+
+.container__botao {
+  background-color: var(--botao-azul);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--branco-principal);
+  text-decoration: none;
+  /* display: block; */
+  margin-bottom: 1em;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.botao_secundario {
+  background-color: transparent;
+  border: 2px solid var(--branco-principal);
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  justify-self: center;
+}
+
+.container__aviso {
+  font-family: "Inter";
+  font-size: 12px;
+  color: var(--cinza-secundario);
+}
+
+.container__descricao {
+  font-family: "Inter";
+  padding: 2em;
+}
+.container__caixa {
+  margin: 0 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitulo {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--cinza-secundario);
+}
+
+.secundario__imagem {
+  width: 80%;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.descriçao__titulo {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.secundario_botao {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
